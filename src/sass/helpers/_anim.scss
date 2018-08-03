@@ -1,0 +1,25 @@
+.panel{
+  width: 500px;
+  border: 5px ridge #777;
+  padding: 15px 0;
+  background: transparent;
+  display: flex;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+}
+.panel>p{
+  font-size: 40px;
+  font-weight: bold;
+  color: #32CD32;
+  flex: 0 0 auto;
+  position: relative;
+  left: 100%;
+  animation: panel-run 5s linear infinite;
+}
+@keyframes panel-run{
+  100%{
+      left: 0;
+      transform: translateX(-100%);
+  }
+}
