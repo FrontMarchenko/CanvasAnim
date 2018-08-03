@@ -22,6 +22,7 @@ function draw(t) {
 
   ctx.closePath();
   ctx.stroke();
+  ctx.strokeStyle= '#32CD32';
 
   window.requestAnimationFrame(draw);
 }
