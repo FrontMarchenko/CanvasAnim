@@ -26,29 +26,3 @@ function draw(t) {
   window.requestAnimationFrame(draw);
 }
 draw();
-
-
-
-
-// var canvas = document.getElementById('canvas');
-// var ctx = canvas.getContext('2d');
-// //var time = 0;
-// var radius = 100;
-
-
-// var centerX = 200;
-// var centerY = 200;
-// var n = 200;
-
-// ctx.beginPath();
-
-// for (var i = 0; i<n; i++) {
-//   var x = centerX + (radius + 40*Math.sin(26*i*Math.PI/n))*Math.sin(i*2*Math.PI/n);
-//   var y = centerY + (radius + 40*Math.sin(26*i*Math.PI/n))*Math.cos(i*2*Math.PI/n);
-
-//   ctx.lineTo(x,y); 
-// }
-// ctx.closePath(); 
-// ctx.strokeStyle= '#00ff7f';
-// ctx.stroke();
-
