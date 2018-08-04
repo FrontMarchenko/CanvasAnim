@@ -14,12 +14,16 @@
   color: #32CD32;
   flex: 0 0 auto;
   position: relative;
-  left: 100%;
-  animation: panel-run 5s linear infinite;
+  left: 200%;
+  animation: panel-run 7s linear infinite;
+}
+.panel p+p{
+
+  color: red;
 }
 @keyframes panel-run{
   100%{
       left: 0;
-      transform: translateX(-100%);
+      transform: translateX(-300%);
   }
 }
